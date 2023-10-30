@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ListExamples"
         tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"
+            android:name=".ThirdActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +22,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GridImageActivity"
+            android:name=".SecondActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".HorizontalListActivity"
+            android:name=".GridImageActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".HorizontalListActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
